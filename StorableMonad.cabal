@@ -1,0 +1,18 @@
+Name:                StorableMonad
+Version:             0.1
+Synopsis:            Helpers to thread a pointer through peeks and pokes.
+Description:         The included module is most useful when writing `Storable` instances.
+License:             BSD3
+License-file:        LICENSE
+Author:              Anthony Cowley
+Maintainer:          acowley@gmail.com
+Category:            Control
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Extra-Source-Files:  examples/Example.hs
+
+Library
+  Exposed-Modules:   Foreign.StorableMonad
+  Build-Depends:     base, mtl >= 2
+  Hs-Source-Dirs:    src
