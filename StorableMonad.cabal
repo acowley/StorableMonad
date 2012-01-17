@@ -8,11 +8,7 @@ Author:              Anthony Cowley
 Maintainer:          acowley@gmail.com
 Category:            Control
 Build-type:          Simple
-Cabal-version:       >=1.2
-
-source-repository head
-  type: git
-  location: git://github.com/acowley/StorableMonad.git
+Cabal-version:       >=1.6
 
 Extra-Source-Files:  examples/Example.hs
 
@@ -20,3 +16,7 @@ Library
   Exposed-Modules:   Foreign.StorableMonad
   Build-Depends:     base, mtl >= 2
   Hs-Source-Dirs:    src
+
+source-repository head
+  type: git
+  location: git://github.com/acowley/StorableMonad.git
