@@ -10,6 +10,10 @@ Category:            Control
 Build-type:          Simple
 Cabal-version:       >=1.2
 
+source-repository head
+  type: git
+  location: git://github.com/acowley/StorableMonad.git
+
 Extra-Source-Files:  examples/Example.hs
 
 Library
